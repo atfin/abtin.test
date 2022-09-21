@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>background-image</title>
+        <link rel="stylesheet" href="./css.css">
+    </head>
+    <body id="bg2">
+        <h2>Background-image</h2>
+        <p class="image_p">This image for test!</p>
+        <p class="image_p">Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC programming language, which was inspired by SETL, capable of exception handling and interfacing with the Amoeba operating system.[13] Its implementation began in December 1989. Van Rossum shouldered sole responsibility for the project,<br> as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's "benevolent dictator for life", a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker.In January 2019, active Python core developers elected a five-member Steering Council to lead the project.
+                <br>
+            Python 2.0 was released on 16 October 2000, with many major new features.Python 3.0, released on 3 December 2008, with many of its major features backported to Python 2.6.x and 2.7.x. Releases of Python 3 include the 2to3 utility, which automates the translation of Python 2 code to Python 3.
+            <br>
+            Python 2.7's end-of-life was initially set for 2015, then postponed to 2020 out of concern that a large body of existing code could not easily be forward-ported to Python 3.No further security patches or other improvements will be released for it.With Python 2's end-of-life, only Python 3.6.x and later were supported. Later, support for 3.6 was also discontinued. In 2021, Python 3.9.2 and 3.8.8 were expedited as all versions of Python (including 2.7) had security issues leading to possible remote code execution and web cache poisoning.
+            <br>
+            In 2022, Python 3.10.4 and 3.9.12 were expedited and so were older releases including 3.8.13, and 3.7.13 because of many security issues. When Python 3.9.13 was released in May 2022, it was announced that the 3.9 series (joining the older series 3.8 and 3.7) will only receive security fixes going forward. On September 7, 2022, four new releases were made due to a potential denial-of-service attack: 3.10.7, 3.9.14, 3.8.14, and 3.7.14.</p>
+        <p class="image_p">Non-zero numeric values representing linear measures must include a length unit, which is either an alphabetic code or abbreviation, as in 200px or 50vw; or a percentage sign, as in 80%. Some units – cm (centimetre); in (inch); mm (millimetre); pc (pica); and pt (point) – are absolute, which means that the rendered dimension does not depend upon the structure of the page; others – em (em); ex (ex) and px (pixel)[clarification needed] – are relative, which means that factors such as the font size of a parent element can affect the rendered measurement. These eight units were a feature of CSS 1[13] and retained in all subsequent revisions. The proposed CSS Values and Units Module Level 3 will, if adopted as a W3C Recommendation, provide seven further length units: ch; Q; rem; vh; vmax; vmin; and vw.[14]
+                    <br>
+            Use
+            Before CSS, nearly all presentational attributes of HTML documents were contained within the HTML markup. All font colors, background styles, element alignments, borders and sizes had to be explicitly described, often repeatedly, within the HTML. CSS lets authors move much of that information to another file, the style sheet, resulting in considerably simpler HTML.
+            <br>
+            For example, headings (h1 elements), sub-headings (h2), sub-sub-headings (h3), etc., are defined structurally using HTML. In print and on the screen, choice of font, size, color and emphasis for these elements is presentational.
+            <br>
+            Before CSS, document authors who wanted to assign such typographic characteristics to, say, all h2 headings had to repeat HTML presentational markup for each occurrence of that heading type. This made documents more complex, larger, and more error-prone and difficult to maintain. CSS allows the separation of presentation from structure. CSS can define color, font, text alignment, size, borders, spacing, layout and many other typographic characteristics, and can do so independently for on-screen and printed views. CSS also defines non-visual styles, such as reading speed and emphasis for aural text readers. The W3C has now deprecated the use of all presentational HTML markup.[15]
+                <br>
+            For example, under pre-CSS HTML, a heading element defined with red text would be written as:</p>
+            <p class="image_p">Some noted limitations of the current capabilities of CSS include:
+                        <br>
+                Selectors are unable to ascend
+                CSS currently offers no way to select a parent or ancestor of an element that satisfies certain criteria.[65] CSS Selectors Level 4, which is still in Working Draft status, proposes such a selector,[66] but only as part of the complete "snapshot" selector profile, not the fast "live" profile used in dynamic CSS styling.[67] A more advanced selector scheme (such as XPath) would enable more sophisticated style sheets. The major reasons for the CSS Working Group previously rejecting proposals for parent selectors are related to browser performance and incremental rendering issues.[68]
+                Cannot explicitly declare new scope independently of position
+                Scoping rules for properties such as z-index look for the closest parent element with a position:absolute or position:relative attribute. This odd coupling has undesired effects. For example, it is impossible to avoid declaring a new scope when one is forced to adjust an element's position, preventing one from using the desired scope of a parent element.
+                Pseudo-class dynamic behavior not controllable
+                CSS implements pseudo-classes that allow a degree of user feedback by conditional application of alternate styles. One CSS pseudo-class, ":hover", is dynamic (equivalent of JavaScript "onmouseover") and has potential for misuse (e.g., implementing cursor-proximity popups),[69] but CSS has no ability for a client to disable it (no "disable"-like property) or limit its effects (no "nochange"-like values for each property).
+                <br>
+                Cannot name rules
+                There is no way to name a CSS rule, which would allow (for example) client-side scripts to refer to the rule even if its selector changes.
+                Cannot include styles from a rule into another rule
+                CSS styles often must be duplicated in several rules to achieve a desired effect, causing additional maintenance and requiring more thorough testing. Some new CSS features were proposed to solve this, but were abandoned afterwards.[70][71] Instead, authors may gain this ability by using more sophisticated stylesheet languages which compile to CSS, such as Sass, Less, or Stylus.
+                Cannot target specific text without altering markup
+                Besides the :first-letter pseudo-element, one cannot target specific ranges of text without needing to utilize place-holder elements.
+                Former issues
+                <br>
+                Additionally, several more issues were present in prior versions of the CSS standard, but have been alleviated:
+                
+                Vertical control limitations
+                Though horizontal placement of elements was always generally easy to control, vertical placement was frequently unintuitive, convoluted, or outright impossible. Simple tasks, such as centering an element vertically or placing a footer no higher than bottom of the viewport required either complicated and unintuitive style rules, or simple but widely unsupported rules.[65] The Flexible Box Module improved the situation considerably and vertical control is much more straightforward and supported in all of the modern browsers.[72] Older browsers still have those issues, but most of those (mainly Internet Explorer 9 and below) are no longer supported by their vendors.[73]
+                Absence of expressions
+                There was no standard ability to specify property values as simple expressions (such as margin-left: 10% – 3em + 4px;). This would be useful in a variety of cases, such as calculating the size of columns subject to a constraint on the sum of all columns. Internet Explorer versions 5 to 7 support a proprietary expression() statement,[74] with similar functionality. This proprietary expression() statement is no longer supported from Internet Explorer 8 onwards, except in compatibility modes. This decision was taken for "standards compliance, browser performance, and security reasons".[74] However, a candidate recommendation with a calc() value to address this limitation has been published by the CSS WG[75] and has since been supported in all of the modern browsers.[76]
+                Lack of column declaration
+                Although possible in current CSS 3 (using the column-count module),[77] layouts with multiple columns can be complex to implement in CSS 2.1. With CSS 2.1, the process is often done using floating elements, which are often rendered differently by different browsers, different computer screen shapes, and different screen ratios set on standard monitors. All of the modern browsers support this CSS 3 feature in one form or another.[78]</p>
+    </body>
+</html>

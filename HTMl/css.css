@@ -1,0 +1,83 @@
+/*color for Real html*/
+body {
+    background: linear-gradient(#16A085,#c5a938);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.web{
+    color:brown;
+    font: bolds;
+}
+
+#tabel {
+    color: brown;
+}
+
+#list{
+    font-weight: bold;
+    color: brown;
+}
+
+.Video-Audio.yellow {
+    color: brown;
+}
+.from{
+    color: brown;
+}
+a[href]{
+    color:black;
+}
+.addres:hover {
+    background-color:darkred;
+    color : wheat;
+}
+
+
+.addres::before{
+    content: " For test! ";
+}
+
+.addres{
+    /*border-width: 3px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    */
+    padding:2px;
+}
+#Tabel2{
+/*    margin-top: 300px;
+    margin-left: 550px;
+    margin-right: 30px;
+    margin-bottom: 550px;
+    */
+    margin: 300px 550px 30px 550px;
+}
+#bg:hover{
+    background-color:darkred;
+    color : wheat; 
+}
+#bg::before{
+    content: " For test! ";
+}
+
+#bg2{
+    background: linear-gradient(rgba(22,160,133,.3), rgba(197,169,56,.6)),url(./image.webp);
+    filter: blur(0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.image_p{
+    color:black;
+    font-size:large;
+    font-family: cursive;
+}
+#img{
+    filter: blur(3px);
+}
+#img:hover{
+    filter: blur(0);
+}

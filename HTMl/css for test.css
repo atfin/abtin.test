@@ -1,0 +1,25 @@
+html {
+  font-size:x-large;
+}
+.all{
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 2rem 0rem;
+    margin-bottom: 1.2rem;
+}
+.s{
+    color:white;
+    background-color: coral;
+
+}
+.none,.s{
+    background-color: cadetblue;
+    color: rgb(78, 45, 45);
+    text-align: center;
+    padding: 2rem 0rem;
+    float: left; 
+    width: 66.66%;
+    height: 20rem;
+}
+
